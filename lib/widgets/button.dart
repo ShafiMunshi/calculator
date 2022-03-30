@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class button extends StatelessWidget {
   final String txt;
@@ -17,7 +18,7 @@ class button extends StatelessWidget {
       onPressed: tap,
       child: Text(
         txt,
-        style: TextStyle(fontSize: 35),
+        style: TextStyle(fontSize: 35.sp),
       ),
       shape: CircleBorder(),
     );
