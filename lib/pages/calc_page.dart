@@ -46,7 +46,7 @@ class _CalcPageState extends State<CalcPage> {
                   ),
                 ],
               ),
-              height: 150.h,
+              height: 180.h,
               width: double.infinity,
               color: Colors.purple),
         ),
@@ -81,7 +81,7 @@ class _CalcPageState extends State<CalcPage> {
               child: Text(
                 'Bangla',
                 style: TextStyle(
-                  fontSize: 20,
+                  fontSize: 20.sp,
                   color: Colors.white,
                 ),
               ),

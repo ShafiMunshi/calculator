@@ -5,6 +5,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+import 'pages/auth/sign_in.dart';
+
 
 
 void main() {
@@ -38,7 +40,7 @@ class _MyAppState extends State<MyApp> {
               GoogleFonts.poppinsTextTheme(Theme.of(context).textTheme.apply()),
           primarySwatch: Colors.blue,
         ),
-        home: CalcPage(),
+        home: SignUp(),
       ),
     );
   }

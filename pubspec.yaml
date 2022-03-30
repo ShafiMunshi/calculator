@@ -37,6 +37,7 @@ dependencies:
   google_fonts: ^2.3.1
   get: ^4.6.1
   flutter_screenutil: ^5.3.1
+  lottie: ^1.2.2
 
   
 
